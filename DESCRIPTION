@@ -1,0 +1,15 @@
+Package: neuMatIdx
+Title: neuMatIdx: Neuron Maturity Index
+Version: 0.0.0.9000
+Authors@R: person("Zhisong", "He", email = "zhisong.he@gmail.com", role = c("aut", "cre"))
+Description: The machine learning based measurement of neuron maturity: Neuron Maturity
+	Index (NMI). Based on the expression levels (in FPKM) of marker genes in each functional
+	module, it uses the trained LASSO model to estimate degrees of general maturity for the
+	given samples, which can be either bulk purified neurons or single neuron.
+Depends: R (>= 3.2)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+	Matrix
+RoxygenNote: 6.0.1
